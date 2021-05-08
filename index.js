@@ -7,5 +7,6 @@ function linea1(){
 
     return who[Math.floor(Math.random()*who.length)]+ " " + action[Math.floor(Math.random()*action.length)]+ " " +what[Math.floor(Math.random()*what.length)]+ " " +when[Math.floor(Math.random()*when.length)];
 }
+
 console.log(linea1())
 
